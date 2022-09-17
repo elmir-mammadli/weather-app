@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="weather-section">
+    <div class="card">
+        <div class="search">
+            <input id="mainInput" type="text" class="search-bar" placeholder="Search">
+            <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></button>
+        </div>
+        <div class="weather">
+            <h2 class="city" id="mainCity"></h2>
+            <h1 class="temp"></h1>
+            <div id="greetText" class="preview-heading">
+                <h3>Welcome to my Weather App!</h3>
+                <div class="greet-p">Type the name of your city and get the result!</div>
+            </div>
+            <div class="actual-temp"></div>
+            <div class="icon-flex">
+            <img src="" alt="" class="icon" />
+            <div class="description" id="desc"></div>
+            </div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
